@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #70d6ff;
+
+}
+
+.section-padding {
+    padding: 100px 0;
+
+}
+
+.container a span {
+    color: #fff;
+}
+
+.about {
+    background-color: #00bfff24;
+}
+
+.principais {
+    background-color: #70d6ff;
+    color: white;
+}  
+
+.services {
+    background: url(../img/arcano.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.team {
+    background-color: rgba(2, 66, 3, 0.36);
+    background-image: url(../img/team.jpg);
+    background-size: cover;
+}
+
+.team p{
+    color: white;
+}
+
+.team img{
+    max-height: 200px;
+}
+
+.socials{
+    background-color: #fac472;
+    border-radius: 20px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.section-header {
+    color: white;
+    padding-right: 68%;
+}
+
+.navbar {
+    background-color: #fac472;
+}
+
+.navbar .getstarted {
+    background: #106eea;
+    margin-left: 30px;
+    border-radius: 4px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    line-height: 2.3;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #f1fbff;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+
+.principais .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.about-img {
+    padding-top: 53px;
+}
+
+.services .card-body i {
+    font-size: 50px;
+}
+
+.team .card-body i {
+    font-size: 20px;
+}
+
+.card{
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.card-body img{
+   min-height: 50px;
+   max-height: 550px;
+}
+
+.lead {
+    color: white;
+}
+
+.card-title {
+    color: #fa7f72;
+}
+
+.section-header h2 {
+    color: goldenrod;
+}
+
+.principais {
+    background-color: #003b3b;
+}
+
+.team .section-header{
+    display: inline;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .img-area img {
+        width: 100%;
+    }
+
+    
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+    .about {
+        background-size: cover;
+    }
+
+    .services {
+        background: url(../img/sumobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-text {
+        padding-top: 50px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .section-header {
+        padding: 0;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+    }
+
+
+    .team{
+        background-image: url(../img/tohmobile.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
